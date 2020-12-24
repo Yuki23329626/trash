@@ -1,0 +1,8 @@
+POINT=1
+ZERO=2
+ONE=3
+WHITESPACE=4
+ERROR=5
+'.'=1
+'0'=2
+'1'=3

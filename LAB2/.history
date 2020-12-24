@@ -1,0 +1,212 @@
+#+1413533414
+ps -aux
+#+1445571349
+cd Download/
+#+1445571353
+cd DS_HWA/
+#+1445571376
+chmod +x mazeg.out
+#+1445571399
+./a.exe
+#+1445571579
+./mazeg.out
+#+1445571782
+gcc a.c -o a.out
+#+1445571788
+./a.out
+#+1457505297
+mv Lab1.tar.gz.1 Lab1.tar.gz
+#+1457505511
+vim Makefile
+#+1457505596
+rm Lab1.tar.gz
+#+1457505622
+wget https://ecourse.ccu.edu.tw/29954/textbook/10/1/Lab1.tar.gz
+#+1457505659
+rm -rf lab1/
+#+1457505680
+tar -zxvf Lab1.tar.gz
+#+1457508130
+vim fig1_10.C
+#+1457508445
+./ shell
+#+1457508452
+./s
+#+1457508602
+rm -rf 123 1234
+#+1457508606
+rm -rf GG
+#+1457508902
+vim fig1_10.
+#+1457509220
+rm -r 123 1234
+#+1457509783
+amke
+#+1457510175
+vim fig1_10.c
+#+1457510395
+mkdir demo2
+#+1457510399
+cd demo2/
+#+1457510408
+vim test
+#+1457510543
+mv test.c
+#+1457510557
+mv test testc
+#+1457510571
+vim test test.c
+#+1457510588
+mv test test.c
+#+1457510593
+rm testc
+#+1457510599
+rm test
+#+1457510615
+vim test.c
+#+1457510725
+gcc -o -g test.c test
+#+1457510740
+gcc test.c -o -g test
+#+1457510747
+gcc test.c -o -g test.exe
+#+1457510751
+gcc test.c -o test.exe
+#+1457510757
+./test.exe
+#+1457510769
+mv test.exe test
+#+1458566969
+cd lab1/
+#+1458566971
+./shell
+#+1458568190
+mkdir www
+#+1458568196
+rm www
+#+1458568202
+re -f www
+#+1458568206
+rm -f www
+#+1458568209
+rm -rf www
+#+1458568295
+ls -a
+#+1458568308
+cd ..
+#+1458568320
+cd caw103u
+#+1458568338
+cd ../snh103u/
+#+1458569141
+g++ -h
+#+1458569151
+man gcc
+#+1458569160
+gcc -h
+#+1458569168
+help gcc
+#+1458569173
+gcc help
+#+1458569176
+help
+#+1458569186
+man -h gcc
+#+1458569200
+man -h g++
+#+1458569257
+mkdir Other
+#+1458569266
+mv Contacts.csv Other/
+#+1458569276
+mv DS/ Other/
+#+1458569284
+mv Download/ Other/
+#+1458569293
+mv HWD/ Other/
+#+1458569300
+mv Lab1.tar.gz Other/
+#+1458569312
+mv apue.h Other/
+#+1458569318
+mv demo2/ Other/
+#+1458569323
+mv foo/ Other/
+#+1458569328
+mv hw9simd/ Other/
+#+1458569332
+mv lab1/ Other/
+#+1458569447
+mv Hw1.cpp hw1.cpp
+#+1458569506
+g++ Hw1.cpp
+#+1458570329
+vim hw1.cpp
+#+1458570722
+g++ hw1.cpp
+#+1458570763
+mv a.out hw1.out
+#+1458570784
+mv hw1.out test
+#+1458570806
+time test > a.out
+#+1458570819
+cat a.out
+#+1458570825
+rm a.out
+#+1458570944
+quit
+#+1458570947
+exit
+#+1458710135
+wget https://ecourse.ccu.edu.tw/29954/textbook/10/2/lab2.tar.gz
+#+1458710146
+tar -zxvf lab2.tar.gz
+#+1458710154
+rm -f test
+#+1458710162
+rm -f hw1.cpp
+#+1458710261
+dd --help
+#+1458710296
+man -h dd
+#+1458711030
+dd if=/dev/zero of 1mb_file bs=1024 count=1024
+#+1458711044
+dd if=/dev/zero of=1mb_file bs=1024 count=1024
+#+1458711080
+dd if=/dev/zero of=10mb_file bs=10240 count=1024
+#+1458711089
+dd if=/dev/zero of=100mb_file bs=102400 count=1024
+#+1458716752
+time ./buffSize4096sync < 50mb_file_for_buffSize4096sync
+#+1458716960
+time ./buffSize16384 < 100mb_file_for_buffSize16384
+#+1458717061
+vim fig3_4_4096
+#+1458717728
+ls
+#+1458718151
+gcc fig3_4_4096.c
+#+1458718214
+vim error.c
+#+1458718238
+gcc fig3_4_4096.c error.c
+#+1458718249
+vim makefile
+#+1458718321
+vim fig3_4_100.c
+#+1458718349
+vim fig3_4_4096.c
+#+1458718374
+vim fig3_4_8192.c
+#+1458718393
+vim fig3_4_16384.c .c
+#+1458718398
+vim fig3_4_16384.c
+#+1458718430
+vim fig3_4_4096sync.c
+#+1458718454
+make
+#+1458719861
+ls -al

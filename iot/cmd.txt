@@ -1,0 +1,3 @@
+sudo mknod -m 777 fifo p
+cat fifo | python3 udp-server.py | nc -kul localhost 6000 > fifo
+echo abc | netcat localhost 6000
